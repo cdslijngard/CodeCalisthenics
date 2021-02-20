@@ -4,13 +4,24 @@ namespace CodeCalisthenics
 {
     internal class Barkeeper
     {
-        private Action<string> _outputProvider;
-        private Func<string> _inputProvider;
+        private readonly Func<string> _inputProvider;
+        private readonly Action<string> _outputProvider;
+        private readonly RecipeBook _recipeBook;
 
-        public Barkeeper(Action<string> writeLine, Func<string> ouputProvider)
+        public Barkeeper(Func<string> inputProvider, Action<string> outputProvider, RecipeBook recipeBook)
         {
-            this._outputProvider = writeLine;
-            this._inputProvider = ouputProvider;
+            this._inputProvider = inputProvider;
+            this._outputProvider = outputProvider;
+            _recipeBook = recipeBook;
+        }
+
+        public void AskForDrink()
+        {
+            _outputProvider($"What do you want to drink? {string.Join(", ", _recipeBook.GetAvailableDrinkNames())}");
+            var drink = _inputProvider() ?? string.Empty;
+
+            var recipe = _recipeBook.GetRecipe(drink);
+            recipe();
         }
     }
 }

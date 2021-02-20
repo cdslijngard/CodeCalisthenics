@@ -1,0 +1,15 @@
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/CodeCalisthenics.deps.json
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/CodeCalisthenics.runtimeconfig.json
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/CodeCalisthenics.runtimeconfig.dev.json
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/CodeCalisthenics.dll
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/ref/CodeCalisthenics.dll
+/Users/christian/Projects/CodeCalisthenics/bin/Debug/net5.0/CodeCalisthenics.pdb
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.csprojAssemblyReference.cache
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.AssemblyInfoInputs.cache
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.AssemblyInfo.cs
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.csproj.CoreCompileInputs.cache
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.dll
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/ref/CodeCalisthenics.dll
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.pdb
+/Users/christian/Projects/CodeCalisthenics/obj/Debug/net5.0/CodeCalisthenics.genruntimeconfig.cache

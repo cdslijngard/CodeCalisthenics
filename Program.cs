@@ -6,7 +6,12 @@ namespace CodeCalisthenics
     {
         static void Main(string[] args)
         {
-            var barkeeper = new Barkeeper(Console.WriteLine, Console.ReadLine);
+            var recipeBook = new RecipeBook(Console.ReadLine, Console.WriteLine);
+            var barkeeper = new Barkeeper(Console.ReadLine, Console.WriteLine, recipeBook);
+            while (true)
+            {
+                barkeeper.AskForDrink();
+            }
         }
     }
 }
